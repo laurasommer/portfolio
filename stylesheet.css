@@ -175,20 +175,26 @@ nav a:hover {
 @media all and (min-width: 1200px) {
     .dropdown {
         display: none;
+    }
+}
 
-    }
-    /*-------- logo ---------- */
-    .navn {
-        width: 100;
-        height: auto;
-        text-align: center;
-        color: #05252d;
-        padding: 5%;
-    }
+/*-------- logo ---------- */
 
-    .logo img {
-        width: 30%;
-        margin: 0 auto;
-        display: block;
-        padding: 2px;
-    }
+.navn {
+    width: 100;
+    height: auto;
+    text-align: center;
+    color: #05252d;
+    padding: 1%;
+}
+
+.logo img {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    border-top-right-radius: 20em;
+    border-bottom-right-radius: 20em;
+    border-top-left-radius: 20em;
+    border-bottom-left-radius: 20em;
+}
