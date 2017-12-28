@@ -9,7 +9,7 @@
 header ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: #5d6f7d;
+    background-color: #05252d;
 
 }
 
@@ -47,7 +47,7 @@ header li a:hover {
 /* Style The Dropdown Button */
 
 .dropbtn {
-    background-color: #5d6f7d;
+    background-color: #05252d;
     font-size: 16px;
     cursor: pointer;
     height: 45px;
@@ -57,7 +57,7 @@ header li a:hover {
 
 .dropdown img {
     color: #F1F1f1;
-    background-color: #5d6f7d;
+    background-color: #05252d;
     width: 25px;
     margin-left: 10.5px;
 }
@@ -77,7 +77,7 @@ header li a:hover {
     position: absolute;
     min-width: 89px;
     z-index: 1;
-    background-color: #5d6f7d;
+    background-color: #05252d;
 }
 
 .dropdown-content a:hover {
@@ -93,7 +93,7 @@ header li a:hover {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {
-    background-color: #5d6f7d;
+    background-color: #05252d;
 }
 
 /* Links inside the dropdown */
@@ -101,7 +101,7 @@ header li a:hover {
 .dropdown-content a {
     padding: 12px 16px;
     display: block;
-    color: #f1f1f1;
+    color: #979c9d;
     padding: 10px;
     width: 89px;
     display: block;
@@ -118,7 +118,7 @@ header li a:hover {
 /*--------- NAVIGATION MENU -------*/
 
 nav {
-    background-color: #5d6f7d;
+    background-color: #05252d;
     position: relative;
     width: 100%;
     text-align: center;
@@ -142,7 +142,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #5d6f7d;
+    color: #05252d;
 }
 
 
@@ -153,7 +153,7 @@ nav a:hover {
     display: inline-block;
     width: 100%;
     top: 0;
-    background-color: #5d6f7d;
+    background-color: #05252d;
 }
 
 .dropdown ul {
@@ -163,7 +163,7 @@ nav a:hover {
 
 /*-------- Media Queries ---------- */
 
-@media all and (max-width: 828px) {
+@media all and (max-width: 200px) {
     nav ul {
         display: none;
     }
@@ -172,7 +172,23 @@ nav a:hover {
     }
 }
 
-@media all and (min-width: 828px) {
+@media all and (min-width: 1200px) {
     .dropdown {
         display: none;
+
+    }
+    /*-------- logo ---------- */
+    .navn {
+        width: 100;
+        height: auto;
+        text-align: center;
+        color: #05252d;
+        padding: 5%;
+    }
+
+    .logo img {
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+        padding: 2px;
     }
