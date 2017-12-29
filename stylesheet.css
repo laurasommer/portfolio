@@ -22,7 +22,7 @@ header li a {
 }
 
 nav {
-    padding: 10px 6px;
+    padding: 20px 6px;
 
 }
 
@@ -213,4 +213,47 @@ nav a:hover {
     margin: 0 auto;
     display: block;
     padding: 20px;
+}
+
+/*---------FOOTER---------*/
+
+footer {
+    top: 0px;
+    padding: 15px;
+    width: 100%;
+    color: #f1f1f1;
+    background-color: #05252d;
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.facebook img {
+    width: 8%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+
+.instagram img {
+    width: 10%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+
+.loger {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.facebook {
+    flex-grow: 1;
+    flex-basis: 10px;
+}
+
+.instagram {
+    flex-grow: 1;
+    flex-basis: 10px;
 }
