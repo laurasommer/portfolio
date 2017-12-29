@@ -200,8 +200,26 @@ nav a:hover {
     border-bottom-left-radius: 20em;
 }
 
+/*-------- CV -------*/
+
+.navn {
+    text-align: center;
+}
+
 #cv {
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.tidslinje img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
 }
 
 /*-------- HTML ---------- */
