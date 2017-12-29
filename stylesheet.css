@@ -179,8 +179,7 @@ nav a:hover {
 }
 
 
-
-/*-------- logo ---------- */
+/*-------- ME ---------- */
 
 .navn {
     width: 100;
@@ -214,6 +213,63 @@ nav a:hover {
     display: block;
     padding: 20px;
 }
+
+/*-------- PORTFOLIO ---------- */
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 1.5vw;
+    flex-basis: 300px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+.tema1 img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    border: 5px solid;
+    border-color: #9eb1b8;
+}
+
+.tema2 img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    border: 5px solid;
+    border-color: #9eb1b8;
+}
+
+.tema3 img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    border: 5px solid;
+    border-color: #9eb1b8;
+}
+
+.tema4 img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    border: 5px solid;
+    border-color: #9eb1b8;
+}
+
 
 /*---------FOOTER---------*/
 
