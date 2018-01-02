@@ -369,6 +369,24 @@ nav a:hover {
     padding: 20px;
 }
 
+.fodboldpigen img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+
+.sex_samfund img {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+
 /*----------- UX -----------*/
 
 .kea_intern img {
