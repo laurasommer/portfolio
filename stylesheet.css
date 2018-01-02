@@ -172,7 +172,7 @@ nav a:hover {
     }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 700px) {
     .dropdown {
         display: none;
     }
@@ -200,40 +200,21 @@ nav a:hover {
     border-bottom-left-radius: 20em;
 }
 
-/*-------- CV -------*/
+/*-------- FORSIDE ---------- */
 
-.navn {
-    text-align: center;
-}
-
-#cv {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.tidslinje img {
-    width: 80%;
+.navn_forside {
+    width: 100;
     height: auto;
-    margin: 0 auto;
-    display: block;
-    padding: 10px;
+    text-align: center;
+    color: #05252d;
+    padding: 1%;
 }
 
-/*-------- HTML ---------- */
-
-.html_moodboard img {
-    width: 60%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    padding: 20px;
+.navn_forside {
+    margin-bottom: 11%;
 }
 
-/*-------- PORTFOLIO ---------- */
-
+/*
 .column {
     display: flex;
     flex-wrap: wrap;
@@ -287,11 +268,127 @@ nav a:hover {
     border: 5px solid;
     border-color: #9eb1b8;
 }
+*/
 
+/*-------- CV -------*/
+
+.navn {
+    text-align: center;
+}
+
+#cv {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.tidslinje img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+
+/*-------- WEBDESIGN ---------- */
+
+.webdesign_moodboard img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+.dadaisme_splash img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+.dadaisme_ikon img {
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+.dadaisme_styletile img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+.webdesign_splash img {
+    width: 60%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.dadaisme img {
+    width: 7vw;
+    height: auto;
+    margin: 10;
+    padding: 5px;
+}
+
+/*--------- VIDEO ---------*/
+
+.cph_dox img {
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+.ccb img {
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+/*------- ANIMATION -------*/
+
+.animation_skitser img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+/*----------- UX -----------*/
+
+.kea_intern img {
+    width: 7vw;
+    height: auto;
+    margin: 10;
+    padding: 5px;
+}
+
+.republikken img {
+    width: 7vw;
+    height: auto;
+    margin: 10;
+    padding: 5px;
+}
 
 /*---------FOOTER---------*/
 
-footer {
+footer,
+footer p {
     top: 0px;
     padding: 15px;
     width: 100%;
@@ -302,32 +399,47 @@ footer {
 }
 
 .facebook img {
-    width: 8%;
+    width: 5vw;
     height: auto;
-    margin: 0 auto;
-    display: block;
+    margin: 0;
     padding: 5px;
 }
 
 .instagram img {
-    width: 10%;
+    width: 7vw;
     height: auto;
-    margin: 0 auto;
-    display: block;
+    margin: 0;
     padding: 5px;
 }
 
-.loger {
+footer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content_box {
+    height: 60px;
 }
 
 .facebook {
+    width: 49%;
     flex-grow: 1;
-    flex-basis: 10px;
+    flex-basis: 100px;
+    text-align: right;
+    margin-right: 10px;
 }
 
 .instagram {
+    width: 49%;
     flex-grow: 1;
-    flex-basis: 10px;
+    flex-basis: 100px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.navn_footer {
+    width: 100%;
 }
