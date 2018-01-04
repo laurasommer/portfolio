@@ -272,9 +272,7 @@ nav a:hover {
 
 /*-------- WEBDESIGN ---------- */
 
-.dada_overskrift1,
 .dada_overskrift2,
-.dada6,
 .dada8 {
     text-align: center;
 }
@@ -338,56 +336,18 @@ nav a:hover {
     width: 60%;
     margin: 0 auto;
     display: block;
-}
-
-
-
-.dadaisme_splash_tekst {
-    flex-grow: 1;
-    flex-basis: 400px;
-    padding-top: 30px;
-}
-
-.dadaisme_splash_billede {
-    flex-grow: 5;
-    flex-basis: 400px;
-    padding: 30px;
+    padding: 20px;
 }
 
 /*----- ikon ------- */
 
-.dadaisme_ikon img {
+.dadaisme_ikon_billede img {
     width: 20%;
     margin: 0 auto;
     display: block;
-    padding-top: 40px;
+    padding: 20px;
 }
 
-
-.dadaisme_ikon {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 30px;
-}
-
-.dadaisme_ikon_tekst {
-    flex-grow: 1;
-    flex-basis: 200px;
-    padding-top: 30px;
-    padding-left: 70px;
-
-}
-
-.dadaisme_ikon_billede {
-    flex-grow: 1;
-    flex-basis: 200px;
-    padding-right: 125px;
-}
-
-.dada_skitser img {
-    width: 100%;
-    padding-top: 20px;
-}
 
 /*----- style tile ------- */
 
@@ -396,23 +356,17 @@ nav a:hover {
     height: auto;
     margin: 0 auto;
     display: block;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 20px;
 }
 
 
-/*----- pdf ikon ------- */
+/*----- pdf link ------- */
 
-.dadaisme_pdf img {
+.dadaisme_link img {
     width: 7vw;
     height: auto;
     margin: 10;
-    padding: 5px;
-    transition: all 0.2s ease;
-}
-
-.dadaisme_pdf img:hover {
-    transform: scale(1.1);
+    padding: 20px;
 }
 
 /*----- stilartsite ------- */
@@ -421,7 +375,7 @@ nav a:hover {
     width: 40%;
     height: auto;
     margin: 10;
-    padding: 5px;
+    padding: 20px;
     transition: all 0.2s ease;
 }
 
@@ -445,7 +399,6 @@ nav a:hover {
         height: 58.2vw;
         padding: 20px;
     }
-
 }
 
 .ccb_mac img {
@@ -457,7 +410,7 @@ nav a:hover {
     transition: all 0.2s ease;
 }
 
-.ccb img:hover {
+.ccb_mac img:hover {
     transform: scale(1.1);
 }
 
@@ -476,7 +429,6 @@ nav a:hover {
         height: 58.2vw;
         padding: 20px;
     }
-
 }
 
 .cph_dox img {
@@ -506,23 +458,37 @@ nav a:hover {
     padding: 20px;
 }
 
-.fodboldpigen img {
-    width: 60%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    padding: 20px;
-}
-
-
-.sex_samfund img {
+.fodboldpigen_mac img {
     width: 40%;
     height: auto;
     margin: 0 auto;
     display: block;
     padding: 20px;
+    transition: all 0.2s ease;
 }
 
+.fodboldpigen_mac img:hover {
+    transform: scale(1.1);
+}
+
+/*----- sex og samf ------- */
+
+.sex_samfund_mac img {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    transition: all 0.2s ease;
+}
+
+.sex_samfund_mac img:hover {
+    transform: scale(1.1);
+}
+
+.sex_samfund_dokumentation {
+    padding: 20px;
+}
 
 /*----------- UX -----------*/
 
