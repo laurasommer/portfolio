@@ -52,6 +52,14 @@ nav {
 
 }
 
+
+@media all and (max-width: 826px) {
+    nav {
+        display: none;
+    }
+
+}
+
 /* Change the link color to #111 (black) on hover */
 
 header li a:hover {
@@ -400,15 +408,25 @@ nav a:hover {
     height: auto;
     margin: 10;
     padding: 5px;
+    transition: all 0.2s ease;
+}
+
+.dadaisme_pdf img:hover {
+    transform: scale(1.1);
 }
 
 /*----- stilartsite ------- */
 
-.dadaisme img {
-    width: 7vw;
+.dadaisme_mac img {
+    width: 40%;
     height: auto;
     margin: 10;
     padding: 5px;
+    transition: all 0.2s ease;
+}
+
+.dadaisme_mac img:hover {
+    transform: scale(1.1);
 }
 
 /*--------- VIDEO ---------*/
@@ -417,6 +435,7 @@ nav a:hover {
 
 .ccb_video {
     text-align: center;
+    padding: 20px;
 }
 
 
@@ -429,11 +448,25 @@ nav a:hover {
 
 }
 
+.ccb_mac img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    transition: all 0.2s ease;
+}
+
+.ccb img:hover {
+    transform: scale(1.1);
+}
+
 
 /*----- cph:dox ------- */
 
 .cphdox_video {
     text-align: center;
+    padding: 20px;
 }
 
 
@@ -454,15 +487,16 @@ nav a:hover {
     padding: 20px;
 }
 
-.ccb img {
-    width: 25%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    padding: 20px;
+.cph_dox_dokumentation {
+    padding-bottom: 20px;
 }
 
 /*------- ANIMATION -------*/
+
+.animation_dokumentation,
+.animation_scenografi {
+    padding-bottom: 20px;
+}
 
 .animation_skitser img {
     width: 60%;
