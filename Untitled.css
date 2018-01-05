@@ -1,0 +1,1 @@
+/*--------- NAVIGATION MENU -------*/ nav { background-color: #05252d; position: relative; width: 100%; text-align: center; font-family: 'Oswald'; } nav ul { margin: 0; padding: 0; } nav li { display: inline-block; margin: 0vw 2vw 0vw 2vw; } nav a { margin: 1vw 5vw 1vw 5vw; font-size: 1.2em; letter-spacing: 0.3vw; } nav a:hover { color: #05252d; }
