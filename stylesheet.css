@@ -32,6 +32,12 @@ h3 {
     font-family: 'Oswald';
 }
 
+/*--------- SECTIONS -------*/
+
+section {
+    display: none;
+}
+
 /*--------- NAVIGATION MENU -------*/
 
 nav {
@@ -405,6 +411,13 @@ nav li a:hover {
 
 .cph_dox_dokumentation {
     padding-bottom: 20px;
+}
+
+/*----- how to be a ladies man ------- */
+
+.htbalm {
+    text-align: center;
+    padding: 20px;
 }
 
 /*------- ANIMATION -------*/

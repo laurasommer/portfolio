@@ -19,29 +19,21 @@
 
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
 </head>
 
 <body>
-    <script src=""></script>
-
-
-    <!---
-<div class="splash">
-        <img alt="splash" src="">
-    </div>
---->
-
-
 
     <header>
         <nav>
             <ul>
-                <li><a class="active" href="index.html">Forside</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="webdesign.html">Webdesign</a></li>
-                <li><a href="video.html">Video</a></li>
-                <li><a href="animation.html">Animation</a></li>
-                <li><a href="ux.html">UX</a></li>
+                <li><a class="nav_forside">Forside</a></li>
+                <li><a class="nav_cv">CV</a></li>
+                <li><a class="nav_webdesign">Webdesign</a></li>
+                <li><a class="nav_video">Video</a></li>
+                <li><a class="nav_animation">Animation</a></li>
+                <li><a class="nav_ux">UX</a></li>
 
             </ul>
         </nav>
@@ -50,15 +42,18 @@
             <button class="dropbtn"> <img src ="img/burgermenu.png"></button>
             <div class="dropdown-content">
 
-                <a href="index.html">Forside </a>
-                <a href="cv.html">CV</a>
-                <a href="webdesign.html">Webdesign</a>
-                <a href="video.html">Video</a>
-                <a href="animation.html">Animation</a>
-                <a href="ux.html">UX</a>
+                <a class="nav_forside">Forside </a>
+                <a class="nav_cv">CV</a>
+                <a class="nav_webdesign">Webdesign</a>
+                <a class="nav_video">Video</a>
+                <a class="nav_animation">Animation</a>
+                <a class="nav_ux">UX</a>
 
             </div>
         </div>
+    </header>
+
+    <div id="forside">
 
         <div class="logo">
             <img alt="logo" src="img/me.jpg">
@@ -68,7 +63,333 @@
             <h1> Laura Sommer </h1>
             <p> Velkommen til min portfolio </p>
         </div>
-    </header>
+
+    </div>
+
+    <section id="cv">
+        <div class="logo">
+            <img alt="logo" src="img/me.jpg">
+        </div>
+
+        <div class="navn">
+            <h1> Laura Sommer </h1>
+        </div>
+
+        <div class="ommig">
+            <p>Mit navn er Laura Sommer og jeg er 21 år. Til hverdag studerer jeg Multimediedesign på Københavns erhvervsakademi på 1. semester. </p><br>
+            <p> Jeg dimitterede fra Ordrup Gymnasium i 2016 og holdt derefter et sabbatår. Det første halve år af mit sabbatår brugte jeg på at arbejde som pædagogmedhjælper i en børnehave og som tjerner på en café i weekenden. I januar 2017 rejste jeg til LA, hvor jeg studerede på New York Film Academy. Her studerede jeg Editing og arbejdede med Avid Media Composer i 3 måneder. </p>
+            <br>
+        </div>
+        <div class="tidslinje">
+            <img alt="tidslinje" src="img/tidslinje.png">
+        </div>
+    </section>
+
+    <section id="webdesign">
+        <div class="navn">
+            <h1> Webdesign </h1>
+            <p> Content first - Grundlæggende HTML og CSS - Design - Responsive WebDesign - Gruppeopgave redesign </p>
+        </div>
+        <!-- HTML -->
+        <div class="dada1">
+            <div class="dada_overskrift1">
+                <h2>Stilartsite om Dadaisme</h2>
+            </div>
+            <h3>Processen</h3>
+            <p> Under det første tema, Webdesign, skulle vi enkeltvis udarbejde et stilart-site. Første læste vi en del om stilarten på nettet og lavede gruppevis en præsentation af vores stilart. Herefter begynde vi enkeltvis at søge efter inspiration til vores stilart-site. Ud fra forskellige billeder fra nettet lavede jeg så nogle moodboards som inspiration. </p>
+        </div>
+
+        <div class="dada2">
+            <h3>Moodboard</h3>
+            <p> Et moodboard er med til give et nemt indblik i Dadaismen og skabe et hurtigt overblik. De er udarbejdet i Photoshop, hvor der er gjort brug af værktøjer som artboards, movetool, typetool, clipping mask og save as pdf. </p>
+        </div>
+
+        <div class="webdesign_moodboard">
+            <div class="mood1">
+                <img alt="Moodboard" src="webdesign_img/Moodboard_LauraSommer.jpg">
+            </div>
+            <div class="mood2">
+                <img alt="Moodboard" src="webdesign_img/Moodboard2_LauraSommer.jpg">
+            </div>
+
+        </div>
+
+        <div class="dada3">
+            <div class="dadaisme_splash">
+                <div class="dadaisme_splash_tekst">
+                    <h3> Splash billede</h3>
+                    <p> Herefter skulle vi lave et Splash billede til vores site. Brugte jeg mine fire moodboards som en del af min idégenererings proces. Jeg brugte mine moodboards som inspiration til at tegnes blyantsskitser ud fra de forskellige idéer/kompositioner og fik der med udarbejdet det endelige Splash billede, som ses her til højre. </p><br>
+                    <p> Splash billedet indsættes som skærmdump i 6 forskellige formater: Mobil potræt, Mobil landscape, Tablet potræt, Tablet landscape, Desktop 16:9 format og Desktop retina 16:9 foramt. </p>
+                </div>
+
+                <div class="dadaisme_splash_billede">
+                    <img src="webdesign_img/splash%20desktop.jpg" alt="Splash" />
+                </div>
+            </div>
+        </div>
+
+        <div class="dada4">
+            <div class="dadaisme_ikon">
+                <h3> Ikon </h3>
+                <p> Den næste del handlede om at lave et ikon til sitet. Et ikon indgår i flere sammenhænge. Det indgår på stilartsitet som et genkendeligt ikon i øverste venstre hjørne, samt som favicon i browserens faneblad.</p><br>
+                <p> Et ikon er en væsentlig ting, det er vigtigt, at et ikon er letgenkendeligtog informerer brugeren om, hvad de klikker på. Der ud over skal et ikon også have en visuel sammenhæng med stilartsitet og Splash billedet, fx. ved brug af samme farver og former. </p><br>
+                <p> I idéfasen startede jeg først med at lave en brainstorm og lave et moodboard. Ud fra dette moodboard tegnede jeg så 12 blyantsskitser af forskellige ikoner og fik udarbejdet det endelige ikon. </p>
+                <p> Ikonet gemmes som png-filer i følgende fire størrelser: 260x260 (favicon generator), 152x152 (fælles indexside), 32x32 (fx navigation) og 16x16 (favicon i url-baren) </p>
+
+                <div class="dadaisme_ikon_billede">
+                    <img src="webdesign_img/ikon-256x256.png" alt="dada ikon" />
+                </div>
+            </div>
+        </div>
+
+        <div class="dada5">
+            <div class="dadaisme_styletile">
+                <h3> Style tile</h3>
+                <p> Som det sidste inden vi gik i gang med selve sitet i html og CSS lavede vi et style tile. </p><br>
+                <p> Et style tile viser hvordan designet skal være på sitet. Her besluttes skrifttyperne ved at noterer fonternes navne og snit/style, farverne ved at noterer hexidecimal-koderne, tekstur hvis det bruges, grafiske former, billedestil, samt 3 værdi-ord/adjektiver der beskriver stilen. Dvs. at man designer sitet ud fra ens style tile. </p>
+
+                <img src="webdesign_img/Style%20tile.png" alt="Style Tile" />
+            </div>
+        </div>
+
+        <div class="dada6">
+            <div class="dadaisme_link">
+                <a href="http://laurasommer.dk//kea/01-web/03-ui/04-ugeopgave/Dadaisme_laura_sommer.pd" target="_blank">
+                    <p>Dokumentationen for min poces kan ses her.</p>
+                </a>
+            </div>
+
+            <div class="dada7">
+                <div class="dada_overskrift2">
+                    <h2> Final stilartsite om Dadaisme </h2><br>
+                </div>
+                <p> Herefter begyndte jeg på selve sitet i html og CSS. </p>
+                <p> Stilartsitet er responsivt og tilpasser sig forskellige formater, som mobil, tablet og desktop. Der er lavet passende breakpoints og tilsvarenbde CSS mediaqueries som ændrer sidens layout ved de forskellige formater. </p><br>
+
+                <p> Stilartsitet består af syv sektioner med tekst og billeder, samt en header med en menu med links til hver sektion. De 7 sections er et splash billeder øverst, så en om section, eksempler, typografi, komposition og farver, links og ekstra. Der ud over er der også en footer med navn. </p><br>
+
+                <p> Både splash billedet og navigationsmen menuen udskiftes når man ændrer formatet, så det tilpasses. I forhold til typografien, så er det gjort brug af forskellige webfonte via. googlefont </p><br>
+            </div>
+            <div class="dada8">
+                <p> Klik på ikonet her under for at komme til hjemmesiden. </p><br>
+
+                <div class="dadaisme_mac"> <a href="http://laurasommer.dk/kea/01-web/04-responsive/stilartsite/final/index.html#splash" target="_blank">
+                    <img alt="content_box dadaisme" src="webdesign_img/dada%20mac.png"\>
+                </a></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <div class="navn">
+            <h1> Video </h1>
+            <p>Videogenrer til digitale platforme - Konceptudvikling - Dramaturgi - Visuel fortælleteknik og billedkomposition - Interviewteknik - Optage- og redigeringsteknik (hhv. video og lyd) - Embedding og distribution af video på nettet (SEO) </p>
+        </div>
+
+        <!-- VIDEO -->
+        <h2>Redesign</h2>
+        <p>I andet tema, Grundlæggende Video, blev vi først præsenteret for filmens graffiske elementer og redigerings programmet, Premier Pro. </p>
+
+        <h3>Virksomhedspræsentations video</h3>
+        <p>Formålet med denne opgave var at producere en digital video som senere også skulle bruges til vores redesignopgave. Vi blev inddelt i grupper og skulle her selv finde en case-virksomhed. Min gruppe og jeg valgte Copenhaghen Care Brands, som er distributører for andre skønhedsprodukter. </p><br>
+        <p>Første del af opgaven var at lave en præsentationsvideo, så vi startede med at tage ud og lave et interview med Peter Madsen, en af de tre ejere af virksomheden. </p><br>
+        <p>Kravene for præsentationsvideoen var at produktionen skulle indholde mindst 10 skud med minium fem forskellige framings, inklusivt et establishment shot, interview eller dialog og lyd fra lokationen og et grafisk element såsom lover third, intro eller outro tekst.</p><br>
+        <p>Værktøjer anvendt: Premiere Pro, Photoshop, Kameraudstyr</p>
+
+        <div class="ccb_video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EvqibxfYPPA?rel=0" allowfullscreen></iframe></div>
+
+        <h3> Redesign af hjemmeside </h3>
+        <p>Anden del af redesignsopgaven var at lave et redesign af virksomhedens website, hvor præsentationsvideoen også indgår som et integreret element. Kravene til opgaven var at websitet skulle være responsiv og indholde de informationer som allerede fandtes på virksomhedens website. </p><br>
+        <p>Vores løsning tog udgangspunkt i en analyse, samt en test af det eksisterende website. Vi startede med at analysere copenhagencarebrands.dk med en Bert-test og 5 sekunderstesten på de andre studerende fra holdet og os selv. Der efter begyndte vi på selve skelettet til sitet, dvs. vi lavede wireframes og et styletile. Da vi havde styr på det grundlæggende, gik vi i gang med selve kodeningsdelen i html og CSS. </p><br>
+        <p>Da vi var færdige med vores redesign af sitet, foretog vi en brugertest, som vi brugte til at optimere det sidste. </p><br>
+        <p>Værktøjer anvendt: Photoshop, InDesign, HTML og CSS.</p>
+
+
+        <div class="ccb_mac"> <a href="http://laurasommer.dk/kea/03-video/03-redesign/finalsite/index.html" target="_blank">
+                    <img alt="content_box ccb" src="video_img/ccb%20logo%20mac.png"\>
+                </a></div>
+
+        <div class="ccb_rapport">
+            <a href="http://laurasommer.dk/kea/03-video/03-redesign/02-redesign/redesign_rapport.pdf" target="_blank">
+                <p>Vores rapport over forløbet kan ses her.</p>
+            </a>
+        </div>
+
+
+        <!-- VIDEO -->
+        <h2>CPH:DOX</h2>
+        <p>CPH:DOX har skabt videouniverset, Everyday Project, som tager afsæt i videoer om virkeligheden og har fokus på almindelige menneskers ualmindelige historier. Vi til opgave at skulle producere en video til Everydays videoplatform. </p><br>
+        <p>Formålet er at få borgere til at fortælle personlige historier med nye og skæve vinkler. Årets temaer var selvoptaget og demokrati. Min gruppe og jeg valgte at gå med temaet selvoptaget. </p><br>
+        <p>I vores film ligger vi vægt på de mørke sider af de sociale medier, med et budskab om det er det værd? Vi interviewer en pige, Pernille, på 24 år om hendes forhold til de sociale medier, hvor hun afslører hvordan det sociale pres, der ligger på hende, selvom hun egentlig ikke ønsker at være en del af det. </p><br>
+        <p>Filmen starter med et establishing shot af Pernille, samt titelen, Like Me. Herefter kommer en masse forskellige snapchats af forskellige mennesker i en stor kulmination, hvor man hverken kan høre, hvad der bliver sagt eller forstå sammenhængen. Der cuttes pludselig til Pernille, som kigger ind i kameraet og spørger: ”Følger I med?” </p><br>
+        <p>Herefter starter interviewet med Pernille, som kører som en voice-over, mens der vises en masse dækbilleder/B-rolls, der er med til at understrege, det hun siger. </p><br>
+
+        <div class="cphdox_video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Mf2hPwtx9jk" frameborder="0" allowfullscreen> </iframe></div>
+
+        <div class="cph_dox_dokumentation">
+            <a href="http://laurasommer.dk/kea/cphdox/" target="_blank">
+                <p>Vores dokumentationssite kan ses her.</p>
+            </a>
+        </div>
+
+
+        <!-- VIDEO -->
+        <h2>How To Be A Ladies Man</h2>
+        <p></p>
+
+        <div class="htbalm">
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/u30cUVO9lMg?list=PL-M0TZm3HcBPmixuUw6lKlx6CTBdzmGX9" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="animation">
+        <div class="navn">
+            <h1> Animation </h1>
+            <p>Scenografi og karakterdesign - Animationer, sekvenser og programmering - Interaktive multimedieproduktioner - Gruppeprojekt - animation </p>
+        </div>
+
+        <!-- Animation -->
+        <h2>Egen animation</h2>
+        <p>I trejde tema, Grundlæggende Animation, skulle selvstændigt producere vores eget animationspil. I animationsspillet skulle der være en historiestruktur, hvor brugeren skulle have valgmuligheden mellem to spillemuligheder, her af skulle den ene spillemulighed udløse en randomchooser. </p><br>
+
+        <h3>Karakterdesign og skitser </h3>
+        <p>Jeg skabte en historie, som opfyldte det angivet krav om minimum to karakterer, en walkcycle per karakter, en scene, samt minimum to lydeffekter og mindst en selv optaget lyd. Jeg satte min idé ind i både en flowchart og aktantmodellen og lavede derefter et moodboard som inspiration til mit design. </p><br>
+        <div class="animation_dokumentation">
+            <a href="http://laurasommer.dk/kea/02-animation/02_01_01_Idegrundlag_laurasommer.pdf" target="_blank">
+                <p>Dokumentationen for min poces kan ses her.</p>
+            </a>
+        </div>
+        <p> Jeg valgte at lave tre karakterer til mit animationsspil. Først beskrev jeg mine tre karakterer i stikordsform, hvorefter jeg ud fra mine beskrivelser tegnede karaktererne i blyantskitser. Da jeg havde tegnet nogle blyantskitser, som jeg var tilfreds med, rentegnede jeg dem i Adobe Illustrator. </p><br>
+        <p>Jeg lagde meget vægt på simpelt design, da at tegne ikke er en af mine stærkeste sider, men også fordi at alle karakterne skulle tegnes mange gange med forskellige udtryk og poseringer, samt animeres i mange frames i en animation-cycle i forløbet. </p><br>
+
+        <div class="animation_skitser">
+            <img src="animation_img/Karakterdesign%20og%20skitser.jpg" alt="skitser" />
+        </div>
+
+
+        <h3>Scenografi</h3>
+        <p>Efter jeg havde designet mine tre karaktere lavede jeg et styletile, som bestod af eksempler på hvordan min stil skulle være i animationsspillet, en farvepalette, typografi, beskrivelse af former, beskrivelse af stil, samt eksempler på hvordan ekstra grafik kan se ud. Da jeg var færdig med mit styletile designede jeg den resterende grafik og rentegnede det i Adobe Illustrator. </p><br>
+
+        <div class="animation_scenografi">
+            <a href="http://laurasommer.dk/kea/02-animation/02.01.03_rentegnet_grafik_laurasommer.pdf" target="_blank">
+                <p>Dokumentationen for min poces kan ses her.</p>
+            </a>
+        </div>
+
+        <h3>HTML &amp; CSS </h3>
+        <p> Da alle elementer var klar til at blive implementeret gik jeg i gang med at kode animationen i HTML, CSS og Javascript/Jquery. Jeg programmerede animationsspillet ud fra mit storyboard, flowchart og sekvensdiagram. </p><br>
+        <p>Jeg tegnede mine frame-animationer i Adobe Illustrator, også kaldet et sprite sheet, og gemte dem som svg filer. For at aktivere animationerne, indeholder HTML scenen, og container og sprite-elementer for alle fiurer i historien. Elementerne har id’er der indeholder henholdsvis container eller sprite, så det er tydligt hvad der er hvad. </p><br>
+        <p>CSS indeholder alt det der skal til for at sætte scenen op, og de animations-klasser der skal til for at historien kan køre. Alle container-id indeholder position, width og height og der er klasser til alle flytte-animationer, sprite-animationer og placeringer. </p><br>
+
+        <p> Værktøjer anvendt: Illustrator, InDesign, SVG, HTML, CSS, JavaScript og Jquery. </p>
+
+        <h3>Lydsiden </h3>
+
+        <h3>Det endelige animationsspil </h3>
+        <p>Mit endelige animationsspil endte med at handle om en prinsesse og to drenge. Prinsessen kommer gående en dag, mens drengene står og spille bold udenfor. Prinsessen hilser og spørg drengene om hun må være med. Brugeren får så valget om hun må være med eller ej. Vælger brugeren at prinsessen gerne må være med jubler de alle. Vælger brugeren derimod at prinsessen ikke må være med udløses en randomchosser og en timer på drengens svar. Her kan hun enten få en udfordring, hvor hun skal nå at fange alle boldende inden tiden er gået, ellers svare drengen bare nej og spillet er dermed slut. </p>
+
+        <div class="fodboldpigen_mac"> <a href="http://laurasommer.dk/kea/02-animation/02_03_04_Endelig_aflevering_LauraSommer.pdf" target="_blank">
+                    <img alt="content_box fodboldpigen" src="animation_img/animationsspil%20mac.png"\>
+                </a></div>
+
+        <div class="animation_endelig">
+            <a href="http://laurasommer.dk/kea/02-animation/020304/index.html" target="_blank">
+                <p>Det endelige animationsspil kan ses her.</p>
+            </a>
+        </div>
+
+        <!-- Animation -->
+        <h2>Sex &amp; Samfund</h2>
+        <h3>Animationsspil </h3>
+        <p>Anden opgave i tredje tema, Grundlæggende Animation, var at lave en animation til Sex &amp; Samfund. Her blev vi inddelt i gruppe af fire personer. Formålet med opgaven var at skabe opmærksomhed om Privatsnak.dk, at stille målgruppen, 13-15 årige, i et dilemma og gøre dem opmærksomme på Privatsnak, som et sted, hvor de kan få hjælp og råd. </p><br>
+        <p>Opgaven var at lave et simpelt, animeret dilemmaspil som er både fangende og tankevækkende. Meningen er at det skulle kunne bruges, som en form for gamificeret anonce, som Privarsnak lan dele på Facebook og Instagram. </p><br>
+        <p>Temaet skulle omhandle billeddeling på nettet, som fylder meget for målgruppen. Emner som hævnporno, tilladelser, sociale medier og digital dannelse fylder meget i medierne. </p><br>
+        <p>Kravene var at dilemmaspillet skulle stille målgruppen i et dilemma, få dem til at tænke over det og i slutningen henvise videre til Privatsnak.dk, hvor de kan stille andre lignende spørgsmål.</p><br>
+        <p>Animationen er programmeret via. HTML, CSS, JavaScript, jQuery og SVG, som vi også arbejde med i det første animations projekt.</p><br>
+        <p>I vores animationsspil har vi valgt dilemmaet ved billeddeling over snapchat. Vi har valgt dette fokus da mange i den målgruppe benytter snapchat dagligt. På snapchat er det er meget nemt at tage et screenshot af en snap og sende den videre til en masse andre. Brugeren bliver i spillet stillet overfor dilemaet om vedkommende vil dele billedet og sende det videre til andre efter at have taget et screenshot. Hvis brugeren vælger at dele billedet bliver billedet delt med en masse andre og man ser hvor hurtigt det kan gå. </p><br>
+        <p>Vi har taget udgangspunkt i Privatsnaks egne farver og designmanual til vores animationsspil.</p>
+
+        <div class="sex_samfund_mac"> <a href="http://laurasommer.dk/kea/02-animation/sex_samfund/Animation/animation.html" target="_blank">
+                    <img alt="content_box sex_samfund" src="animation_img/privarsnak%20mac.png"\>
+                </a></div>
+
+        <div class="sex_samfund_dokumentation">
+            <a href="http://laurasommer.dk/kea/02-animation/sex_samfund/Dokumentationssite/dokumentation.html" target="_blank">
+                <p>Dokumentationsitet for processen kan ses her.</p>
+            </a>
+        </div>
+
+    </section>
+
+    <section id="ux">
+        <div class="navn">
+            <h1> UX </h1>
+        </div>
+
+        <!-- UX -->
+        <h2>Kea App design</h2>
+        <h3>Øvelsescasen</h3>
+        <p>I fjerede tema, Grundlæggende UX, skulle vi i grupper af 4 udvikle en prototype til en App på en smartphone. App’en skulle kunne fungere i KEA MMD regi, dvs. at målgruppen for app’en var KEA studerende. Senere skulle App’en præsenteres for KEAs ledelse.</p><br>
+        <p>Først udarbejde vi 3 idéer, KEAntine da vi ikke føler KEA’s kantine møder de studerenes behov eller rådighedsbeløb, </p><br>
+        <p>I vores idégenerering lavede vi først experience map, hvor vi skrev alle idéer og tanker ned på posters og delte dem ind i grupper for forskellige idéer. Da vi havde udlavgt vores tre idéer, tegnede vi skitser for i hvilke sammenhænge App’en skulle benyttes. Derefter lavede vi storyboards, tegnede en Paper Protorype og lavede en usability test på alle tre idéer. </p><br>
+        <p>For at komme frem til vores endelige valg af idé til vores app, lavede vi til sidst konceptvalidering for alle tre idéer og ud fra en samlet analyse af det hele lavede vi benchmark. I vores benchmarik gav vi de tre idéer en score fra 1-3 og den med den højeste score til sidst blev vores endelige valg af idé. </p>
+
+        <h3>KEA-intern</h3>
+        <p>Vi valgte at arbejde videre med vores KEA-intern idé. Inden vi gik i gang med at designe App’en og lavede vores prototype i Adobe XD CC, lavede vi først et styletile, for at fastslå designet til App’en. Derefter gik vi i gang med at designe siderne i Photoshop, hvor efter vi satte dem sammen i Adobe XD CC. Da vi mente vi var færdige lavede vi endnu en usability test af KEA-intern, som vi brugte til at optimere det sidste.</p><br>
+
+        <div class="kea_intern_forside">
+            <a href="https://xd.adobe.com/view/dd6f8cf7-e11b-4647-a904-37d96aedb63a/" target="_blank">
+            <img alt="kea_intern forside" src="ux_img/forside%20iPhone.png">
+            </a>
+        </div>
+
+        <div class="kea_intern_dokumentation">
+            <a href="https://kea.beamtic.com/04-ux/01_dokumentationssite/dokumentationssite.html" target="_blank">
+                <p>Dokumentationsdelen af sitet kan ses her.</p>
+            </a>
+        </div>
+
+        <div class="kea_intern_præsentation">
+            <a href="https://kea.beamtic.com/04-ux/01_dokumentationssite/afleveringssite.html" target="_blank">
+                <p>Præsentationsdelen af sitet kan ses her.</p>
+            </a>
+        </div>
+
+
+        <!-- UX -->
+        <h2>Kundecase (Republikken) </h2>
+        <h3>Virksomhedscase</h3>
+        <p>Anden opgave under grundlæggende UX, var at udvikle en prototype til en App for Republikken. Republikken, Københavns ældste kontorfællesskab, vil gerne opnå mere networking og erfaringsudvikling mellem medlemmerne. Opgaven var derfor at udvikle en prototype til en App, som kan fange og engagere målgruppen. Den skal indeholde funktionaliteter som styrker fællesskabet bland medlemmerne. </p>
+
+        <h3>Repubklikken</h3>
+        <p>Under idégenererings processen gjorde vi igen brug af brugerinterviews, experience map, udvikling af personas, Business Model Canvas (analyse af Republikkens forretningsmodel), paper prototyper på tre idéer ud fra samme pain point, brugerens brug af app og storyboards, aktivitetsliste og feature-set list, prototyping samt Bert-test og papir sketching, datakodning og benchmarking.</p><br>
+        <p>Ud fra vores idégenererings proces kom vi frem til vores idé Republikkens Helte. Republikkens Helte er en app, hvor medlemmer kan søge efter hjælp hos hinanden og hjælpe andre som har brug for det.</p><br>
+        <p>Efter vi havde valgt vores idé gik vi i gange med fotostil, moodboard og et styletile. Så tegnede vi blyantsskitser på app ikon for Republikkens app og rentegnede det i Adobe Illustrator. Derefter startede vi på selve vores App design og vores prototype på appen med Adobe XD CC.</p>
+
+
+        <div class="republikken_forside">
+            <a href="https://xd.adobe.com/view/755ea7eb-3905-4c3c-919b-d3b8e55cd922/" target="_blank">
+            <img alt="kea_intern forside" src="ux_img/forsiden%20republikken%20iPhone.png">
+            </a>
+        </div>
+
+
+        <div class="republikken_dokumentation">
+            <a href="https://kea.beamtic.com/04-ux/republikken/dokumentationssite.html" target="_blank" target="_blank">
+                <p>Dokumentationsdelen af sitet kan ses her.</p>
+            </a>
+        </div>
+
+        <div class="republikken_presentation">
+            <a href="https://kea.beamtic.com/04-ux/republikken/afleveringssite.html" target="_blank">
+                <p>Præsentationsdelen af sitet kan ses her.</p>
+            </a>
+        </div>
+    </section>
+
+
 
     <footer>
         <div class="content_box navn_footer">
@@ -82,6 +403,8 @@
                 </a></div>
 
     </footer>
+    <script src="java.js"></script>
+
 </body>
 
 </html>
