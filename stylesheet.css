@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*-------- FONTS ---------- */
+
 h1 {
     font-size: 2.8em;
     text-align: center;
@@ -49,7 +51,6 @@ header li a {
 
 nav {
     padding: 20px 6px;
-
 }
 
 
@@ -197,7 +198,7 @@ nav a:hover {
 
 /*-------- Media Queries ---------- */
 
-@media all and (max-width: 200px) {
+@media all and (max-width: 800px) {
     nav ul {
         display: none;
     }
@@ -206,14 +207,14 @@ nav a:hover {
     }
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 800px) {
     .dropdown {
         display: none;
     }
 }
 
 
-/*-------- ME ---------- */
+/*-------- ME LOGO ---------- */
 
 .navn {
     width: 100;
@@ -256,10 +257,11 @@ nav a:hover {
 
 #cv {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
+
+}
+
+.ommig {
+    width:
 }
 
 .tidslinje img {
@@ -492,11 +494,17 @@ nav a:hover {
 
 /*----------- UX -----------*/
 
-.kea_intern img {
-    width: 7vw;
+.kea_intern_forside img {
+    width: 20%;
     height: auto;
-    margin: 10;
-    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.kea_intern_forside img:hover {
+    transform: scale(1.1);
 }
 
 .republikken img {
