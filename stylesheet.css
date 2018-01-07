@@ -9,7 +9,6 @@
 h1 {
     font-size: 2.8em;
     text-align: center;
-    padding-top: 90px;
     padding-bottom: 15px;
 }
 
@@ -31,6 +30,13 @@ h1,
 h2,
 h3 {
     font-family: 'Oswald';
+}
+
+#webdesign h1,
+#video h1,
+#animation h1,
+#ux h1 {
+    padding-top: 90px;
 }
 
 /*--------- SECTIONS -------*/
@@ -193,15 +199,6 @@ nav li a:hover {
     padding-top: 90px;
 }
 
-@media all and (max-width: 715px) {
-    .logo img {
-        width: 80vw;
-        height: auto;
-        padding: 10px;
-        margin-top: 67px;
-    }
-}
-
 /*-------- navn ---------- */
 
 .navn_forside {
@@ -210,14 +207,6 @@ nav li a:hover {
     text-align: center;
     color: #05252d;
     margin-bottom: 2%;
-}
-
-
-
-@media all and (max-width: 715px) {
-    .navn_forside {
-        margin-bottom: 21%;
-    }
 }
 
 /*-------- CV -------*/
@@ -296,9 +285,7 @@ nav li a:hover {
 }
 
 .mood1,
-.mood2,
-.mood3,
-.mood4 {
+.mood2 {
     flex-grow: 1;
     flex-basis: 500px;
 }
@@ -321,7 +308,6 @@ nav li a:hover {
     padding: 20px;
 }
 
-
 /*----- style tile ------- */
 
 .dadaisme_styletile img {
@@ -329,16 +315,6 @@ nav li a:hover {
     height: auto;
     margin: 0 auto;
     display: block;
-    padding: 20px;
-}
-
-
-/*----- pdf link ------- */
-
-.dadaisme_link img {
-    width: 7vw;
-    height: auto;
-    margin: 10;
     padding: 20px;
 }
 
@@ -394,15 +370,6 @@ nav li a:hover {
     padding: 20px;
 }
 
-
-@media all and (max-width: 624px) {
-    .cphdox_video iframe {
-        width: 100%;
-        height: 58.2vw;
-        padding: 20px;
-    }
-}
-
 .cph_dox img {
     width: 25%;
     height: auto;
@@ -418,9 +385,10 @@ nav li a:hover {
 /*----- how to be a ladies man ------- */
 
 .htbalm {
-    width: 60%;
-    height: auto;
-    padding: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 /*------- ANIMATION -------*/
@@ -474,21 +442,6 @@ nav li a:hover {
 
 /*----- kea intern ------- */
 
-.republikken_forside img {
-    width: 20%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    padding: 10px;
-    transition: all 0.2s ease;
-}
-
-.republikken_forside img:hover {
-    transform: scale(1.1);
-}
-
-/*----- republikken ------- */
-
 .kea_intern_forside img {
     width: 20%;
     height: auto;
@@ -502,6 +455,20 @@ nav li a:hover {
     transform: scale(1.1);
 }
 
+/*----- republikken ------- */
+
+.republikken_forside img {
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.republikken_forside img:hover {
+    transform: scale(1.1);
+}
 
 .republikken_presentation {
     padding-bottom: 15px;
@@ -564,4 +531,122 @@ footer {
 
 .navn_footer {
     width: 100%;
+}
+
+/*---------MEDIA QUERIS---------*/
+
+/*-------- forside ---------- */
+
+@media all and (max-width: 715px) {
+    .logo img {
+        width: 80vw;
+        height: auto;
+        padding: 10px;
+        margin-top: 67px;
+    }
+}
+
+@media all and (max-width: 715px) {
+    .navn_forside {
+        margin-bottom: 21%;
+    }
+}
+
+@media all and (max-width: 715px) {
+    .tidslinje img {
+        width: 105%;
+        height: auto;
+        display: block;
+        padding: 5px;
+    }
+}
+
+/*-------- webdesign ---------- */
+
+@media all and (max-width: 715px) {
+    .dadaisme_splash_billede img,
+    .dadaisme_styletile img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+@media all and (max-width: 715px) {
+    .dadaisme_ikon_billede img {
+        width: 50%;
+        height: auto;
+        display: block;
+    }
+}
+
+@media all and (max-width: 715px) {
+    .dadaisme_mac img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/*--------- video ---------*/
+
+@media all and (max-width: 715px) {
+    .ccb_mac img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media all and (max-width: 624px) {
+    .cphdox_video iframe,
+    .htbalm iframe {
+        width: 100%;
+        height: 58.2vw;
+        padding: 20px;
+    }
+}
+
+/*------- animation -------*/
+
+@media all and (max-width: 715px) {
+    .animation_skitser img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+@media all and (max-width: 715px) {
+    .fodboldpigen_mac img,
+    .sex_samfund_mac img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media all and (max-width: 715px) {
+    .kea_intern_forside img,
+    .republikken_forside img {
+        width: 35%;
+        height: auto;
+    }
+}
+
+/*------- footer -------*/
+
+@media all and (max-width: 715px) {
+    .facebook img {
+        width: 7vw;
+        height: auto;
+        margin: 0;
+        padding: 0px;
+    }
+}
+
+@media all and (max-width: 715px) {
+    .instagram img {
+        width: 11vw;
+        height: auto;
+        margin: 0;
+        padding: 0px;
+    }
 }
