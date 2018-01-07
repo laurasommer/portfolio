@@ -340,6 +340,10 @@ nav li a:hover {
     padding: 20px;
 }
 
+.ccb_video iframe {
+    border: 0;
+}
+
 
 @media all and (max-width: 624px) {
     .ccb_video iframe {
@@ -369,6 +373,10 @@ nav li a:hover {
     padding: 20px;
 }
 
+.cphdox_video iframe {
+    border: 0;
+}
+
 .cph_dox img {
     width: 25%;
     height: auto;
@@ -388,6 +396,10 @@ nav li a:hover {
     height: 100%;
     text-align: center;
     padding-bottom: 20px;
+}
+
+.htbalm iframe {
+    border: 0;
 }
 
 /*------- ANIMATION -------*/
