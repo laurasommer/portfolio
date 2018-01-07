@@ -9,7 +9,8 @@
 h1 {
     font-size: 2.8em;
     text-align: center;
-    padding-top: 30px
+    padding-top: 90px;
+    padding-bottom: 15px;
 }
 
 p {
@@ -47,13 +48,13 @@ nav {
     text-align: center;
     font-family: 'Oswald';
     padding: 20px 6px;
+    position: fixed;
 }
 
 nav li {
     display: inline-block;
     margin: 0 5vw 0 0;
     color: #f1f1f1;
-
 }
 
 nav a {
@@ -78,7 +79,7 @@ nav li a:hover {
 }
 
 
-@media all and (max-width: 826px) {
+@media all and (max-width: 715px) {
     nav {
         display: none;
     }
@@ -91,7 +92,7 @@ nav li a:hover {
     display: none;
     position: absolute;
     min-width: 140px;
-    z-index: 1;
+    z-index: 20;
     background-color: #05252d;
 }
 
@@ -146,6 +147,7 @@ nav li a:hover {
     width: 100%;
     top: 0;
     background-color: #05252d;
+    z-index: 20;
 }
 
 .dropdown ul {
@@ -155,7 +157,7 @@ nav li a:hover {
 
 /*-------- Media Queries ---------- */
 
-@media all and (max-width: 826px) {
+@media all and (max-width: 715px) {
     nav ul {
         display: none;
     }
@@ -165,56 +167,57 @@ nav li a:hover {
 }
 
 
-@media all and (min-width: 826px) {
+@media all and (min-width: 715px) {
     .dropdown {
         display: none;
     }
 }
 
 
-/*-------- ME LOGO ---------- */
+/*-------- FORSIDE ---------- */
+
+/*-------- logo ---------- */
 
 .navn {
     width: 100;
     height: auto;
     text-align: center;
     color: #05252d;
-    padding: 1%;
 }
 
 .logo img {
-    width: 30%;
+    width: 33%;
     margin: 0 auto;
     display: block;
-    padding: 20px;
-    margin-top: 30px;
-    border-top-right-radius: 20em;
-    border-bottom-right-radius: 20em;
-    border-top-left-radius: 20em;
-    border-bottom-left-radius: 20em;
+    padding: 7px;
+    padding-top: 90px;
 }
 
-
-/*-------- SPLASH ---------- */
-
-.splash img {
-    width: 100%;
-
+@media all and (max-width: 715px) {
+    .logo img {
+        width: 80vw;
+        height: auto;
+        padding: 10px;
+        margin-top: 67px;
+    }
 }
 
-
-/*-------- FORSIDE ---------- */
+/*-------- navn ---------- */
 
 .navn_forside {
-    width: 100;
+    width: 100%;
     height: auto;
     text-align: center;
     color: #05252d;
-    padding: 1%;
+    margin-bottom: 2%;
 }
 
-.navn_forside {
-    margin-bottom: 11%;
+
+
+@media all and (max-width: 715px) {
+    .navn_forside {
+        margin-bottom: 21%;
+    }
 }
 
 /*-------- CV -------*/
@@ -384,7 +387,6 @@ nav li a:hover {
     transform: scale(1.1);
 }
 
-
 /*----- cph:dox ------- */
 
 .cphdox_video {
@@ -416,7 +418,8 @@ nav li a:hover {
 /*----- how to be a ladies man ------- */
 
 .htbalm {
-    text-align: center;
+    width: 60%;
+    height: auto;
     padding: 20px;
 }
 
@@ -509,7 +512,7 @@ nav li a:hover {
 footer,
 footer p {
     top: 0px;
-    padding: 15px;
+    padding: 5px;
     width: 100%;
     color: #f1f1f1;
     background-color: #05252d;
@@ -518,17 +521,17 @@ footer p {
 }
 
 .facebook img {
-    width: 5vw;
+    width: 4vw;
     height: auto;
     margin: 0;
-    padding: 5px;
+    padding: 0px;
 }
 
 .instagram img {
-    width: 7vw;
+    width: 6vw;
     height: auto;
     margin: 0;
-    padding: 5px;
+    padding: 0px;
 }
 
 footer {
@@ -540,11 +543,11 @@ footer {
 }
 
 .content_box {
-    height: 60px;
+    height: 50px;
 }
 
 .facebook {
-    width: 49%;
+    width: 35%;
     flex-grow: 1;
     flex-basis: 100px;
     text-align: right;
@@ -552,7 +555,7 @@ footer {
 }
 
 .instagram {
-    width: 49%;
+    width: 35%;
     flex-grow: 1;
     flex-basis: 100px;
     text-align: left;
